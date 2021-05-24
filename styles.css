@@ -163,4 +163,6 @@ footer .section_2 .list_2 .footer_list1 a {
     font-size: 14px;
 }
 
-
+footer .section_2 .list_2 .footer_list1 {
+    padding-right: 30px; 
+}

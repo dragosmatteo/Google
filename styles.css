@@ -116,17 +116,6 @@ form .search:hover {
     padding: 0px 20px;
 }
 
-@media screen and (max-width: 700px) {
-    .search {
-        width: 65%;
-    }
-
-    .fa-microphone, .fa-search {
-        width: 100%;
-    }
-}
-
-
 form .input[type="text"]:focus {
     outline: none;
 }
@@ -200,12 +189,12 @@ footer .section_1 {
 }
 
 footer .section_1 .tara{
-   color: var(--color-bg-3);
-   padding-left: 30px;
-   padding-top: 15px;
+    color: var(--color-bg-3);
+    padding-left: 30px;
+    padding-top: 15px;
 }
 
- footer .section_2 {
+footer .section_2 {
     width: 100%;
     min-height: 45px;
     background-color: var(--color-bg-2);
@@ -252,6 +241,15 @@ footer .section_2 .list_2 .footer_list1 {
     padding-right: 30px; 
 }
 
+@media screen and (max-width: 700px) {
+    .search {
+        width: 65%;
+    }
+
+    .fa-microphone, .fa-search {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 800px)  {
     footer {
